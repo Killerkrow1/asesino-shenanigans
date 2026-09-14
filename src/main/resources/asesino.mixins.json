@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.killerkrow.asesno.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DisappearingItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "HideCloudMixin",
+    "MixinClientWorld"
+  ]
+}
